@@ -1,13 +1,13 @@
 {
-  "name": "@tinybox/linter",
+  "name": "@tinybox/linter-js",
   "version": "0.1.0",
   "description": "",
   "main": "./bin/index.js",
   "bin": "./bin/index.js",
   "scripts": {
     "start": "node bin/index.js",
-    "prettier": "pretty",
-    "prettier:fix": "pretty --write"
+    "prettier": "code-styler",
+    "prettier:fix": "code-styler --write"
   },
   "author": "Juan Martin Muda",
   "license": "MIT",
@@ -16,6 +16,6 @@
     "eslint-config-prettier": "^9.1.0"
   },
   "dependencies": {
-    "@tinybox/pretty": "^0.1.0"
+    "@tinybox/code-styler": "^0.1.0"
   }
 }
