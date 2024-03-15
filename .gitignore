@@ -1,1 +1,53 @@
+# Node modules
 node_modules/
+
+package-lock.json
+
+# Dependencias de desarrollo
+npm-debug.log
+yarn-debug.log*
+yarn-error.log*
+
+# Carpeta de construcción
+build/
+dist/
+
+# Archivos de configuración
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# Dependencias específicas de IDE
+.vscode/
+.idea/
+
+# Archivos de respaldo y temporales
+*.log
+*.tmp
+*.bak
+*.swp
+*~
+
+# Carpeta de almacenamiento de datos
+.db/
+
+# Archivos de caché
+.cache/
+
+# Archivos generados en la compilación
+*.class
+*.jar
+*.war
+*.ear
+*.exe
+*.dll
+*.so
+*.obj
+*.o
+*.a
+*.lib
+*.out
+*.log
+

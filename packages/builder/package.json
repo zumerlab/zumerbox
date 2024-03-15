@@ -1,0 +1,24 @@
+{
+  "name": "@tinybox/builder",
+  "version": "0.1.0",
+  "description": "",
+  "author": "Juan Martin Muda",
+  "license": "MIT",
+  "main": "./index.js",
+  "bin": "./index.js",
+  "scripts": {
+    "start": "node src/index.js",
+    "lint": "linter",
+    "format-code": "pretty"
+  },
+  "dependencies": {
+    "esbuild": "^0.20.1",
+    "esbuild-plugin-sass": "^1.0.1",
+    "sass": "^1.71.1",
+    "yargs": "^17.7.2"
+  },
+  "devDependencies": {
+    "@tinybox/linter": "^0.1.0",
+    "@tinybox/pretty": "^0.1.0"
+  }
+}
