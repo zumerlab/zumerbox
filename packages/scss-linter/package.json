@@ -1,5 +1,5 @@
 {
-  "name": "@tinybox/linter-css",
+  "name": "@tinybox/scss-linter",
   "version": "0.1.0",
   "description": "",
   "main": "./bin/index.js",
@@ -12,10 +12,10 @@
   "author": "Juan Martin Muda",
   "license": "MIT",
   "devDependencies": {
-    "eslint": "^8.57.0",
-    "eslint-config-prettier": "^9.1.0"
+    "@tinybox/code-styler": "^0.1.0"
   },
   "dependencies": {
-    "@tinybox/code-styler": "^0.1.0"
+    "stylelint": "^16.2.1",
+    "stylelint-config-standard-scss": "^13.0.0"
   }
 }

@@ -1,0 +1,21 @@
+{
+  "name": "@tinybox/css-linter",
+  "version": "0.1.0",
+  "description": "",
+  "main": "./bin/index.js",
+  "bin": "./bin/index.js",
+  "scripts": {
+    "start": "node bin/index.js",
+    "prettier": "code-styler",
+    "prettier:fix": "code-styler --write"
+  },
+  "author": "Juan Martin Muda",
+  "license": "MIT",
+  "devDependencies": {
+    "@tinybox/code-styler": "^0.1.0"
+  },
+  "dependencies": {
+    "stylelint": "^16.2.1",
+    "stylelint-config-standard": "^36.0.0"
+  }
+}
