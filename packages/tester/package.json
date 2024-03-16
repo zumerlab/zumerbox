@@ -14,5 +14,8 @@
     "jest": "^29.7.0",
     "jest-image-snapshot": "^6.4.0",
     "jest-puppeteer": "^10.0.1"
+  },
+  "devDependencies": {
+    "git-cliff": "^2.1.2"
   }
 }
