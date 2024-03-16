@@ -1,0 +1,8 @@
+ {
+  "preset": "jest-puppeteer",
+  "snapshotSerializers": ["jest-image-snapshot"],
+  "setupFilesAfterEnv": [
+    "./jest-image-snapshot-extend.js"
+  ]
+  
+}

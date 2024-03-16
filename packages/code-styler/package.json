@@ -6,7 +6,7 @@
   "bin": "./bin/index.js",
   "scripts": {
     "start": "node bin/index.js",
-    "lint": "linter-js"
+    "lint": "js-linter"
   },
   "author": "Juan Martin Muda",
   "license": "MIT",
@@ -14,6 +14,6 @@
     "prettier": "^3.2.5"
   },
   "devDependencies": {
-    "@tinybox/linter-js": "^0.1.0"
+    "@tinybox/js-linter": "^0.1.0"
   }
 }
