@@ -1,7 +1,7 @@
 {
   "name": "tinybox",
   "version": "0.1.0",
-  "description": "Set of basic dev tools",
+  "description": "Small set of dev tools",
   "main": "index.js",
   "private": "true",
   "scripts": {
@@ -20,8 +20,5 @@
   "bugs": {
     "url": "https://github.com/zumerlab/tinybox/issues"
   },
-  "homepage": "https://github.com/zumerlab/tinybox#readme",
-  "workspaces": [
-    "packages/*"
-  ]
+  "homepage": "https://github.com/zumerlab/tinybox#readme"
 }
