@@ -2,6 +2,10 @@
 
 All notable changes to this project will be documented in this file. 
 
+#### [v1.5.2](https://github.com/zumerlab/zumerbox/compare/v1.5.2...v1.5.2)
+
+- Update changelog [`e2c9100`](https://github.com/zumerlab/zumerbox/commit/e2c9100c13a61f7992ba0d707c567e6eb3b2fe38)
+
 #### [v1.5.2](https://github.com/zumerlab/zumerbox/compare/v1.5.1...v1.5.2)
 
 > 25 March 2024
