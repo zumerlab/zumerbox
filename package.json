@@ -3,14 +3,14 @@
   "version": "1.5.0",
   "description": "Small set of development tools",
   "bin": {
-    "changelog": "changelog",
-    "release": "release",
-    "build": "build",
-    "code-format": "code-format",
-    "css-lint": "css-lint",
-    "scss-lint": "scss-lint",
-    "js-lint": "js-lint",
-    "tests": "tests"
+    "changelog": "node_modules/@zumerbox/changelog/bin/index.js",
+    "release": "node_modules/@zumerbox/release/bin/index.js",
+    "build": "node_modules/@zumerbox/build/bin/index.js",
+    "code-format": "node_modules/@zumerbox/code-format/bin/index.js",
+    "css-lint": "node_modules/@zumerbox/css-lint/bin/index.js",
+    "scss-lint": "node_modules/@zumerbox/scss-lint/bin/index.js",
+    "js-lint": "node_modules/@zumerbox/js-lint/bin/index.js",
+    "tests": "node_modules/@zumerbox/tests/bin/index.js"
   },
   "repository": {
     "type": "git",
