@@ -3,14 +3,14 @@
   "version": "1.4.0",
   "description": "Small set of development tools",
   "bin": {
-    "changelog": "@zumerbox/changelog",
-    "release": "@zumerbox/release",
-    "build": "@zumerbox/build",
-    "code-format": "@zumerbox/code-format",
-    "css-lint": "@zumerbox/css-lint",
-    "scss-lint": "@zumerbox/scss-lint",
-    "js-lint": "@zumerbox/js-lint",
-    "tests": "@zumerbox/tests"
+    "changelog": "changelog",
+    "release": "release",
+    "build": "build",
+    "code-format": "code-format",
+    "css-lint": "css-lint",
+    "scss-lint": "scss-lint",
+    "js-lint": "js-lint",
+    "tests": "tests"
   },
   "repository": {
     "type": "git",
