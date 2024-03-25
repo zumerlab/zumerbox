@@ -3,14 +3,7 @@
   "version": "1.6.0",
   "description": "Small set of development tools",
   "bin": {
-    "changelog": "bin/zb-changelog.js",
-    "release": "bin/zb-release.js",
-    "build": "bin/zb-build.js",
-    "code-format": "bin/zb-code-format.js",
-    "css-lint": "bin/zb-css-lint.js",
-    "scss-lint": "bin/zb-scss-lint.js",
-    "js-lint": "bin/zb-js-lint.js",
-    "tests": "bin/zb-tests.js"
+    "zumerbox": "bin/zb.js"
   },
   "repository": {
     "type": "git",
