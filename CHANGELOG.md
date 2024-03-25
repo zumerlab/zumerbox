@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. 
 
+#### [v1.6.1](https://github.com/zumerlab/zumerbox/compare/v1.6.0...v1.6.1)
+
+> 25 March 2024
+
+- Fix bug to execute specific zumerbox tool [`e67388a`](https://github.com/zumerlab/zumerbox/commit/e67388a7a6fcde36b00767f24b3ec1e3020ccefb)
+- Bumped version [`62ef3ca`](https://github.com/zumerlab/zumerbox/commit/62ef3ca154bc91fb4936f3e8711ec9149df0b815)
+
 #### [v1.6.0](https://github.com/zumerlab/zumerbox/compare/v1.5.2...v1.6.0)
 
 > 25 March 2024
