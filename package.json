@@ -1,6 +1,6 @@
 {
   "name": "zumerbox",
-  "version": "1.1.0",
+  "version": "1.2.0",
   "description": "Small set of development tools",
   "bin": {
     "changelog": "@zumerbox/changelog",
