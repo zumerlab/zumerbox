@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. 
 
+#### [v1.5.1](https://github.com/zumerlab/zumerbox/compare/v1.5.0...v1.5.1)
+
+> 25 March 2024
+
+- Update changelog [`fdda851`](https://github.com/zumerlab/zumerbox/commit/fdda851b6cd338e38566c1c816f1880b88c3ff6e)
+- Fix bin entries [`ebe3b81`](https://github.com/zumerlab/zumerbox/commit/ebe3b813277bca73b3a18eae377c3a9f04bfdc2a)
+
 #### [v1.5.0](https://github.com/zumerlab/zumerbox/compare/v1.4.0...v1.5.0)
 
 > 25 March 2024
