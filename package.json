@@ -2,10 +2,15 @@
   "name": "tinybox",
   "version": "0.1.0",
   "description": "Small set of dev tools",
-  "main": "index.js",
-  "private": "true",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+  "bin": {
+    "changelog": "@tinybox/changelog",
+    "release": "@tinybox/release",
+    "build": "@tinybox/build",
+    "code-format": "@tinybox/code-format",
+    "css-lint": "@tinybox/css-lint",
+    "scss-lint": "@tinybox/scss-lint",
+    "js-lint": "@tinybox/js-lint",
+    "tests": "@tinybox/tests"
   },
   "repository": {
     "type": "git",
@@ -20,5 +25,15 @@
   "bugs": {
     "url": "https://github.com/zumerlab/tinybox/issues"
   },
-  "homepage": "https://github.com/zumerlab/tinybox#readme"
+  "homepage": "https://github.com/zumerlab/tinybox#readme",
+  "dependencies": {
+    "@tinybox/build": "^0.1.1",
+    "@tinybox/changelog": "^1.2.0",
+    "@tinybox/code-format": "^0.1.0",
+    "@tinybox/css-lint": "^0.1.0",
+    "@tinybox/js-lint": "^0.1.1",
+    "@tinybox/release": "^1.0.3",
+    "@tinybox/scss-lint": "^0.1.1",
+    "@tinybox/tests": "^0.1.4"
+  }
 }
