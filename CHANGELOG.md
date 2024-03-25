@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. 
 
+#### [v1.5.2](https://github.com/zumerlab/zumerbox/compare/v1.5.1...v1.5.2)
+
+> 25 March 2024
+
+- Add bin file to run zumerbox packages [`46a34b8`](https://github.com/zumerlab/zumerbox/commit/46a34b8e6d6e9f1da7bc14ad1d54785550bda33e)
+- Update changelog [`81a952b`](https://github.com/zumerlab/zumerbox/commit/81a952b910554285e1aecf36ea673d5b0ea0ac3d)
+
 #### [v1.5.1](https://github.com/zumerlab/zumerbox/compare/v1.5.0...v1.5.1)
 
 > 25 March 2024
