@@ -1,39 +1,40 @@
 {
-  "name": "tinybox",
+  "name": "zumerbox",
   "version": "1.0.0",
-  "description": "Small set of dev tools",
+  "description": "Small set of development tools",
   "bin": {
-    "changelog": "@tinybox/changelog",
-    "release": "@tinybox/release",
-    "build": "@tinybox/build",
-    "code-format": "@tinybox/code-format",
-    "css-lint": "@tinybox/css-lint",
-    "scss-lint": "@tinybox/scss-lint",
-    "js-lint": "@tinybox/js-lint",
-    "tests": "@tinybox/tests"
+    "changelog": "@zumerbox/changelog",
+    "release": "@zumerbox/release",
+    "build": "@zumerbox/build",
+    "code-format": "@zumerbox/code-format",
+    "css-lint": "@zumerbox/css-lint",
+    "scss-lint": "@zumerbox/scss-lint",
+    "js-lint": "@zumerbox/js-lint",
+    "tests": "@zumerbox/tests"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/zumerlab/tinybox.git"
+    "url": "git+https://github.com/zumerlab/zumerbox.git"
   },
   "keywords": [
     "dev",
-    "devtools"
+    "devtools",
+    "utilities"
   ],
   "author": "Juan Martin Muda",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/zumerlab/tinybox/issues"
+    "url": "https://github.com/zumerlab/zumerbox/issues"
   },
-  "homepage": "https://github.com/zumerlab/tinybox#readme",
+  "homepage": "https://github.com/zumerlab/zumerbox#readme",
   "dependencies": {
-    "@tinybox/build": "^0.1.1",
-    "@tinybox/changelog": "^1.2.0",
-    "@tinybox/code-format": "^0.1.0",
-    "@tinybox/css-lint": "^0.1.0",
-    "@tinybox/js-lint": "^0.1.1",
-    "@tinybox/release": "^1.0.3",
-    "@tinybox/scss-lint": "^0.1.1",
-    "@tinybox/tests": "^0.1.4"
+    "@zumerbox/build": "^0.1.1",
+    "@zumerbox/changelog": "^1.2.0",
+    "@zumerbox/code-format": "^0.1.0",
+    "@zumerbox/css-lint": "^0.1.0",
+    "@zumerbox/js-lint": "^0.1.1",
+    "@zumerbox/release": "^1.0.3",
+    "@zumerbox/scss-lint": "^0.1.1",
+    "@zumerbox/tests": "^0.1.4"
   }
 }
