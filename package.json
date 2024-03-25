@@ -1,6 +1,6 @@
 {
   "name": "zumerbox",
-  "version": "1.5.2",
+  "version": "1.6.0",
   "description": "Small set of development tools",
   "bin": {
     "changelog": "bin/zb-changelog.js",
