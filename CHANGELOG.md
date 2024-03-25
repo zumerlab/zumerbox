@@ -2,7 +2,13 @@
 
 All notable changes to this project will be documented in this file. 
 
-#### [v0.1.0](https://github.com/zumerlab/tinybox/compare/v0.1.0...v0.1.0)
+#### [v1.0.0](https://github.com/zumerlab/tinybox/compare/v1.0.0...v1.0.0)
+
+### [v1.0.0](https://github.com/zumerlab/tinybox/compare/v0.1.0...v1.0.0)
+
+> 25 March 2024
+
+- Update Changelog [`1a3504b`](https://github.com/zumerlab/tinybox/commit/1a3504bef542763b67f4ec31221c609764900790)
 
 #### v0.1.0
 
