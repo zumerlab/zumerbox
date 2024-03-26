@@ -15,6 +15,7 @@ The idea behind ZumerBox is that it can be used out-of-the-box without any confi
 You can use the ZumerBox bundle or any of its tools without installation by running `npx`. See [Usage](#usage) for details.
 
 ## Design philosophy
+
 ZumerBox tools are designed as wrappers for popular tools such as Jest, ESLint, StyleLint, ESbuild, Prettier, and update-changelog. They are pre-configured to be immediately usable without the need for extensive setup or configuration.
 
 ## Installation
@@ -35,7 +36,6 @@ This will install all tools included in ZumerBox.
 
 Alternatively, you can install each tool independently. Here are the available tools:
 
-
 - @zumerbox/changelog: [npm 📦](https://www.npmjs.com/package/@zumerbox/changelog) | [GitHub :octocat:](https://github.com/zumerlab/zumerbox-changelog)
 - @zumerbox/release: [npm 📦](https://www.npmjs.com/package/@zumerbox/release) | [GitHub :octocat:](https://github.com/zumerlab/zumerbox-release)
 - @zumerbox/build: [npm 📦](https://www.npmjs.com/package/@zumerbox/build) | [GitHub :octocat:](https://github.com/zumerlab/zumerbox-build)
@@ -44,7 +44,6 @@ Alternatively, you can install each tool independently. Here are the available t
 - @zumerbox/scss-lint: [npm 📦](https://www.npmjs.com/package/@zumerbox/scss-lint) | [GitHub :octocat:](https://github.com/zumerlab/zumerbox-scss-lint)
 - @zumerbox/js-lint: [npm 📦](https://www.npmjs.com/package/@zumerbox/js-lint) | [GitHub :octocat:](https://github.com/zumerlab/zumerbox-js-lint)
 - @zumerbox/tests: [npm 📦](https://www.npmjs.com/package/@zumerbox/tests) | [GitHub :octocat:](https://github.com/zumerlab/zumerbox-tests)
-
 
 You can install any of these tools individually using npm:
 
@@ -63,7 +62,7 @@ You can use any tool from ZumerBox without the need for installation by running 
 npx zumerbox tests
 ```
 
-or 
+or
 
 ```bash
 # using ZumerBox individual tool
@@ -77,9 +76,9 @@ Alternatively, you can integrate ZumerBox tools into your npm package scripts. F
 ```json
 //package.json
 {
-    "scripts": {
-        "release":"npx zumerbox release"
-    }
+  "scripts": {
+    "release": "npx zumerbox release"
+  }
 }
 ```
 
@@ -88,9 +87,9 @@ or with an individual tool:
 ```json
 //package.json
 {
-    "scripts": {
-        "release":"npx @zumerbox/release"
-    }
+  "scripts": {
+    "release": "npx @zumerbox/release"
+  }
 }
 ```
 
