@@ -21,14 +21,14 @@
   },
   "homepage": "https://github.com/zumerlab/zumerbox#readme",
   "dependencies": {
-    "@zumerbox/build": "*",
-    "@zumerbox/changelog": "*",
-    "@zumerbox/code-format": "*",
-    "@zumerbox/css-lint": "*",
-    "@zumerbox/js-lint": "*",
+    "@zumerbox/build": "^0.2.0",
+    "@zumerbox/changelog": "^1.4.0",
+    "@zumerbox/code-format": "^0.1.1",
+    "@zumerbox/css-lint": "^0.1.1",
+    "@zumerbox/js-lint": "^0.1.2",
     "@zumerbox/npm-init": "^0.1.0",
-    "@zumerbox/release": "*",
-    "@zumerbox/scss-lint": "*",
-    "@zumerbox/tests": "*"
+    "@zumerbox/release": "^1.0.6",
+    "@zumerbox/scss-lint": "^0.1.2",
+    "@zumerbox/tests": "^0.1.5"
   }
 }
