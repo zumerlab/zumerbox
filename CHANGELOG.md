@@ -1,6 +1,14 @@
 ### Changelog
 
-All notable changes to this project will be documented in this file.
+All notable changes to this project will be documented in this file. 
+
+#### [v1.8.1](https://github.com/zumerlab/zumerbox/compare/v1.8.0...v1.8.1)
+
+> 26 March 2024
+
+- Prettier files [`0d9dd62`](https://github.com/zumerlab/zumerbox/commit/0d9dd623202bcba248e23c4487f712db9e26be76)
+- chore add scripts and update tools [`79dcd6d`](https://github.com/zumerlab/zumerbox/commit/79dcd6d46b8d4897052f67a18a56a23e3629ebbb)
+- Bumped version [`b9bb064`](https://github.com/zumerlab/zumerbox/commit/b9bb0647609cb15f0fd6fc59f4de4e41d718b46a)
 
 #### [v1.8.0](https://github.com/zumerlab/zumerbox/compare/v1.7.0...v1.8.0)
 
