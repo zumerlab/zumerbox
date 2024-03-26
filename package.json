@@ -26,6 +26,7 @@
     "@zumerbox/code-format": "*",
     "@zumerbox/css-lint": "*",
     "@zumerbox/js-lint": "*",
+    "@zumerbox/npm-init": "^0.1.0",
     "@zumerbox/release": "*",
     "@zumerbox/scss-lint": "*",
     "@zumerbox/tests": "*"
