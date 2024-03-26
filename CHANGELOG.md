@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. 
 
+#### [v1.8.0](https://github.com/zumerlab/zumerbox/compare/v1.7.0...v1.8.0)
+
+> 26 March 2024
+
+- update version tools [`3ae4148`](https://github.com/zumerlab/zumerbox/commit/3ae414879125baa611d60f4e71168daffb2e6025)
+- update changelog [`42416b4`](https://github.com/zumerlab/zumerbox/commit/42416b4bb25b8f1e9225f6cda522d190f1e2b585)
+
 #### [v1.7.0](https://github.com/zumerlab/zumerbox/compare/v1.6.2...v1.7.0)
 
 > 26 March 2024
