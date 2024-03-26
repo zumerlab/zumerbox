@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. 
 
+#### [v1.7.0](https://github.com/zumerlab/zumerbox/compare/v1.6.2...v1.7.0)
+
+> 26 March 2024
+
+- update changelog [`ada165c`](https://github.com/zumerlab/zumerbox/commit/ada165cf00bcb97ab6294fa8b8c128706a88b59e)
+- Add new tool: npm init [`0ec50db`](https://github.com/zumerlab/zumerbox/commit/0ec50dbf35b0ee4984dbcd53b680c58e5bad57cf)
+
 #### [v1.6.2](https://github.com/zumerlab/zumerbox/compare/v1.6.1...v1.6.2)
 
 > 26 March 2024
