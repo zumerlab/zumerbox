@@ -145,21 +145,21 @@ This way, you can utilize ZumerBox seamlessly within your project's development 
 
 3. **Usage**:
 
-  - **Workflow**: In first example run this command to automatically lint, format, test, bump version, build dist files, push to git and publish on npm.
+- **Workflow**: In first example run this command to automatically lint, format, test, bump version, build dist files, push to git and publish on npm.
 
-     ```bash
-     npm run workflow
-     ```
+  ```bash
+  npm run workflow
+  ```
 
-  - **Bump**: In second example run this command to test, bump a version and update changelog.
+- **Bump**: In second example run this command to test, bump a version and update changelog.
 
 #### Notes:
 
-  - If you want, the installation part can be ommited since zumerbox bundle or any of its tools are executables via `npx`.
+- If you want, the installation part can be ommited since zumerbox bundle or any of its tools are executables via `npx`.
 
-  - The `prebump` script is executed automatically before `bump` to ensure code quality by running linting tasks. This is done directly by npm scripts that support pre and post commands [(Learn more on NPM)](https://docs.npmjs.com/cli/v10/using-npm/scripts).
+- The `prebump` script is executed automatically before `bump` to ensure code quality by running linting tasks. This is done directly by npm scripts that support pre and post commands [(Learn more on NPM)](https://docs.npmjs.com/cli/v10/using-npm/scripts).
 
-  - If there is an error in any tasks the flow will be interrupted. For instance, if tests don't pass, process exit.
+- If there is an error in any tasks the flow will be interrupted. For instance, if tests don't pass, process exit.
 
 By following this recipe, you can create a comprehensive development workflow that automates various tasks using Zumerbox and ensures code quality and consistency throughout the development process. Adapt this receipt to your needs.
 
@@ -174,30 +174,30 @@ By following this recipe, you can create a comprehensive development workflow th
 
 1. **Create a folder project**:
 
-    ```bash
-        mkdir < folder project >
-        cd < folder project >
-    ```
+   ```bash
+       mkdir < folder project >
+       cd < folder project >
+   ```
 
 2. **Run npm-init tool**:
 
-    ```bash
-        npx @zumerbox/npm-init
-    ```
+   ```bash
+       npx @zumerbox/npm-init
+   ```
 
-    Or
+   Or
 
-    ```bash
-        npx zumerbox npm-init
-    ```
+   ```bash
+       npx zumerbox npm-init
+   ```
 
 3. **Usage**: Just follow tool prompts. `npm-init` will ask to choose a package name and will check if this name is valid and available. It is allowed to to choose just a name or a scoped name (ej: @organization/name). By default `npm-init` will add an author name based on git config, and a MIT licence.
 
 #### Notes:
 
-  - If you already have an initialized project with a `package.json`, `npm-nit` will update this file keeping your previous configuration.
+- If you already have an initialized project with a `package.json`, `npm-nit` will update this file keeping your previous configuration.
 
-  - Since this tool is used occasionally, We not recommended to install it in your project as a dependency.
+- Since this tool is used occasionally, We not recommended to install it in your project as a dependency.
 
 ## License
 
