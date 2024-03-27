@@ -37,7 +37,7 @@ This will install all tools included in ZumerBox.
 Alternatively, you can install each tool independently. Here are the available tools:
 
 - @zumerbox/changelog: [npm 📦](https://www.npmjs.com/package/@zumerbox/changelog) | [GitHub :octocat:](https://github.com/zumerlab/zumerbox-changelog)
-- @zumerbox/release: [npm 📦](https://www.npmjs.com/package/@zumerbox/release) | [GitHub :octocat:](https://github.com/zumerlab/zumerbox-release)
+- @zumerbox/bump: [npm 📦](https://www.npmjs.com/package/@zumerbox/bump) | [GitHub :octocat:](https://github.com/zumerlab/zumerbox-bump)
 - @zumerbox/build: [npm 📦](https://www.npmjs.com/package/@zumerbox/build) | [GitHub :octocat:](https://github.com/zumerlab/zumerbox-build)
 - @zumerbox/code-format: [npm 📦](https://www.npmjs.com/package/@zumerbox/code-format) | [GitHub :octocat:](https://github.com/zumerlab/zumerbox-code-format)
 - @zumerbox/css-lint: [npm 📦](https://www.npmjs.com/package/@zumerbox/css-lint) | [GitHub :octocat:](https://github.com/zumerlab/zumerbox-css-lint)
@@ -77,7 +77,7 @@ Alternatively, you can integrate ZumerBox tools into your npm package scripts. F
 ```json
 {
   "scripts": {
-    "release": "npx zumerbox release"
+    "bump": "npx zumerbox bump"
   }
 }
 ```
@@ -87,7 +87,7 @@ or with an individual tool:
 ```json
 {
   "scripts": {
-    "release": "npx @zumerbox/release"
+    "bump": "npx @zumerbox/bump"
   }
 }
 ```
@@ -123,7 +123,7 @@ This way, you can utilize ZumerBox seamlessly within your project's development 
        "format:code": "npx zumerbox code-format",
        "tests": "npx zumerbox tests",
        "prebump": "npm run lint:css  && npm run lint:js && npm run format:code && npm run tests",
-       "bump": "npx zumerbox release && npx zumerbox changelog",
+       "bump": "npx zumerbox bump && npx zumerbox changelog",
        "build": "npx zumerbox build",
        "git:push": "git commit -am\"chore: bump version\" && git push --follow-tags",
        "npm:publish": "npm publish",
@@ -138,7 +138,7 @@ This way, you can utilize ZumerBox seamlessly within your project's development 
    {
      "scripts": {
        "prebump": "npx zumerbox tests",
-       "bump": "npx zumerbox release && npx zumerbox changelog  && git commit -am\"chore: bump version\""
+       "bump": "npx zumerbox bump && npx zumerbox changelog  && git commit -am\"chore: bump version\""
      }
    }
    ```

@@ -6,9 +6,9 @@
     "zumerbox": "bin/zb.js"
   },
   "scripts": {
-    "prerelease": "npx zumerbox js-lint --fix && npx zumerbox code-format --write",
-    "release": "npx zumerbox release",
-    "postversion": "npx zumerbox changelog && git add . && git commit -m \"Bumped version\" && git push --follow-tags"
+    "prebump": "npx zumerbox js-lint --fix && npx zumerbox code-format --write",
+    "bump": "npx zumerbox bump",
+    "postbump": "npx zumerbox changelog && git add . && git commit -m \"Bumped version\" && git push --follow-tags"
   },
   "repository": {
     "type": "git",
@@ -27,12 +27,12 @@
   "homepage": "https://github.com/zumerlab/zumerbox#readme",
   "dependencies": {
     "@zumerbox/build": "^0.2.0",
+    "@zumerbox/bump": "^1.0.7",
     "@zumerbox/changelog": "^1.4.0",
     "@zumerbox/code-format": "^0.1.1",
     "@zumerbox/css-lint": "^0.1.1",
     "@zumerbox/js-lint": "^0.1.2",
     "@zumerbox/npm-init": "^0.1.1",
-    "@zumerbox/release": "^1.0.6",
     "@zumerbox/scss-lint": "^0.1.2",
     "@zumerbox/tests": "^0.1.5"
   }
