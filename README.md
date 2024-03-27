@@ -44,6 +44,7 @@ Alternatively, you can install each tool independently. Here are the available t
 - @zumerbox/scss-lint: [npm 📦](https://www.npmjs.com/package/@zumerbox/scss-lint) | [GitHub :octocat:](https://github.com/zumerlab/zumerbox-scss-lint)
 - @zumerbox/js-lint: [npm 📦](https://www.npmjs.com/package/@zumerbox/js-lint) | [GitHub :octocat:](https://github.com/zumerlab/zumerbox-js-lint)
 - @zumerbox/tests: [npm 📦](https://www.npmjs.com/package/@zumerbox/tests) | [GitHub :octocat:](https://github.com/zumerlab/zumerbox-tests)
+- @zumerbox/npm-init: [npm 📦](https://www.npmjs.com/package/@zumerbox/npm-init) | [GitHub :octocat:](https://github.com/zumerlab/zumerbox-npm-init)
 
 You can install any of these tools individually using npm:
 
@@ -66,7 +67,7 @@ or
 
 ```bash
 # using ZumerBox individual tool
-npx @zumerbox-tests
+npx @zumerbox/tests
 ```
 
 Replace `tests` with the name of the tool you want to use.
