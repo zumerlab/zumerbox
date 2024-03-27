@@ -1,6 +1,17 @@
 ### Changelog
 
-All notable changes to this project will be documented in this file.
+All notable changes to this project will be documented in this file. 
+
+#### [v1.8.2](https://github.com/zumerlab/zumerbox/compare/v1.8.1...v1.8.2)
+
+> 27 March 2024
+
+- Update Readme with a new recipe [`b722ff8`](https://github.com/zumerlab/zumerbox/commit/b722ff80f1805cfc11e29b5f44ac24f22ee115e2)
+- Update Readme with a recipe [`2deca3c`](https://github.com/zumerlab/zumerbox/commit/2deca3c0f17984182337d29855b2bd741768a92a)
+- Linted [`fdc3dab`](https://github.com/zumerlab/zumerbox/commit/fdc3dab3a555e428972fbee2470a975e40d8f6bd)
+- Update to include bump tool [`f193dec`](https://github.com/zumerlab/zumerbox/commit/f193dec6eb04f1744f2a9d20f1fa61348938282e)
+- Bumped version [`08d2c03`](https://github.com/zumerlab/zumerbox/commit/08d2c03bbd3f84a6f15a3a5a0bb11f7cfd4b725c)
+- Add npm-init tool and fix typo [`a599855`](https://github.com/zumerlab/zumerbox/commit/a599855302e36c6b75fae47f20c8e2a0decd844c)
 
 #### [v1.8.1](https://github.com/zumerlab/zumerbox/compare/v1.8.0...v1.8.1)
 
