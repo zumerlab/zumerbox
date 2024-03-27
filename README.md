@@ -74,7 +74,6 @@ Replace `tests` with the name of the tool you want to use.
 Alternatively, you can integrate ZumerBox tools into your npm package scripts. For instance, you can add a script entry in your `package.json` file:
 
 ```json
-//package.json
 {
   "scripts": {
     "release": "npx zumerbox release"
@@ -85,7 +84,6 @@ Alternatively, you can integrate ZumerBox tools into your npm package scripts. F
 or with an individual tool:
 
 ```json
-//package.json
 {
   "scripts": {
     "release": "npx @zumerbox/release"
@@ -94,6 +92,59 @@ or with an individual tool:
 ```
 
 This way, you can utilize ZumerBox seamlessly within your project's development workflow.
+
+## Recipes
+
+### Recipe 1: Enhancing development workflow with `package.json` scripts
+
+#### Ingredients:
+- Zumerbox installed in your project
+- `package.json` file
+
+#### Instructions:
+1. **Installation**: Install Zumerbox and its tools in your project.
+
+   ```bash
+   npm install zumerbox --save-dev
+   ```
+
+2. **Configuration**: Add scripts to your `package.json` file to automate common development tasks using Zumerbox tools. You can enhance your workflow by incorporating scripts for versioning, testing, linting, updating changelog, and more.
+
+   Example `package.json` scripts including all tasks:
+
+   ```json
+   {
+     "scripts": {
+       "lint:css": "npx zumerbox css-lint --write",
+       "lint:js": "npx zumerbox js-lint --fix",
+       "format:code": "npx zumerbox code-format",
+       "tests": "npx zumerbox tests",
+       "prebump":"npm run lint:css  && npm run lint:js && npm run format:code && npm run tests",
+       "bump":"npx zumerbox release && npx zumerbox changelog",
+       "build": "npx zumerbox build",
+       "git:push": "git commit -am\"chore: bump version\" && git push --follow-tags",
+       "npm:publish": "npm publish",
+       "workflow":"npm run bump && npm run build && npm run git:push && npm run npm:push"
+     }
+   }
+   ```
+
+3. **Usage**: 
+
+   - **Workflow**: Run this command to automatically lint, format, test, bump version, build dist files, push to git and publish on npm. 
+
+     ```bash
+     npm run workflow
+     ```
+
+#### Notes:
+- If you want, the installation part can be ommited since zumerbox bundle or any of its tools are executables via `npx`.
+
+- The `prebump` script is executed automatically before `bump` to ensure code quality by running linting tasks. This is done directly by npm scripts that support pre and post commands [(Learn more on NPM)](https://docs.npmjs.com/cli/v10/using-npm/scripts). 
+
+- If there is an error in any tasks the flow will be interrupted. For instance, if tests don't pass, process exit.
+
+By following this recipe, you can create a comprehensive development workflow that automates various tasks using Zumerbox and ensures code quality and consistency throughout the development process. Adapt this receipt to your needs.
 
 ## License
 
