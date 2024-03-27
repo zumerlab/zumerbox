@@ -6,6 +6,7 @@
     "zumerbox": "bin/zb.js"
   },
   "scripts": {
+    "update": "npx npm-check-updates -u",
     "prebump": "npx zumerbox js-lint --fix && npx zumerbox code-format --write",
     "bump": "npx zumerbox bump",
     "postbump": "npx zumerbox changelog && git add . && git commit -m \"Bumped version\" && git push --follow-tags"
@@ -17,7 +18,14 @@
   "keywords": [
     "dev",
     "devtools",
-    "utilities"
+    "utilities",
+    "lint",
+    "test",
+    "bundle",
+    "build",
+    "suit",
+    "zumerbox",
+    "changelog"
   ],
   "author": "Juan Martin Muda",
   "license": "MIT",
@@ -26,14 +34,14 @@
   },
   "homepage": "https://github.com/zumerlab/zumerbox#readme",
   "dependencies": {
-    "@zumerbox/build": "^0.2.0",
+    "@zumerbox/build": "^0.3.0",
     "@zumerbox/bump": "^1.0.7",
     "@zumerbox/changelog": "^1.4.0",
-    "@zumerbox/code-format": "^0.1.1",
-    "@zumerbox/css-lint": "^0.1.1",
-    "@zumerbox/js-lint": "^0.1.2",
-    "@zumerbox/npm-init": "^0.1.1",
-    "@zumerbox/scss-lint": "^0.1.2",
-    "@zumerbox/tests": "^0.1.5"
+    "@zumerbox/code-format": "^0.1.2",
+    "@zumerbox/css-lint": "^0.1.2",
+    "@zumerbox/js-lint": "^0.1.3",
+    "@zumerbox/npm-init": "^0.1.2",
+    "@zumerbox/scss-lint": "^0.1.3",
+    "@zumerbox/tests": "^0.1.6"
   }
 }
