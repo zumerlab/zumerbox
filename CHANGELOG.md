@@ -1,6 +1,6 @@
 ### Changelog
 
-All notable changes to this project will be documented in this file. 
+All notable changes to this project will be documented in this file.
 
 #### [v1.8.3](https://github.com/zumerlab/zumerbox/compare/v1.8.2...v1.8.3)
 
