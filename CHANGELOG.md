@@ -1,6 +1,14 @@
 ### Changelog
 
-All notable changes to this project will be documented in this file.
+All notable changes to this project will be documented in this file. 
+
+#### [v1.9.0](https://github.com/zumerlab/zumerbox/compare/v1.8.3...v1.9.0)
+
+> 5 April 2024
+
+- Bumped version [`b217a03`](https://github.com/zumerlab/zumerbox/commit/b217a0385bfc7ad56709bc060513426279d2a3ca)
+- Add doc-extractor tool [`ee10cf9`](https://github.com/zumerlab/zumerbox/commit/ee10cf97d795275587122501df949eb467a2974f)
+- Style: code format [`317ed06`](https://github.com/zumerlab/zumerbox/commit/317ed0694586e7d7f4f93934d14bc31ca6e95d30)
 
 #### [v1.8.3](https://github.com/zumerlab/zumerbox/compare/v1.8.2...v1.8.3)
 
