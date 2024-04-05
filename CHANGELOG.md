@@ -1,6 +1,16 @@
 ### Changelog
 
-All notable changes to this project will be documented in this file.
+All notable changes to this project will be documented in this file. 
+
+#### [v1.9.1](https://github.com/zumerlab/zumerbox/compare/v1.9.0...v1.9.1)
+
+> 5 April 2024
+
+- Create LICENSE [`ce48b37`](https://github.com/zumerlab/zumerbox/commit/ce48b37dfca2d55d0be64c21065014de8d701546)
+- Bumped version [`a09c901`](https://github.com/zumerlab/zumerbox/commit/a09c901d69c189a22c725de09480d4992ee4ff97)
+- update readme with new tool [`6cd4dbf`](https://github.com/zumerlab/zumerbox/commit/6cd4dbff611a77c4785baabf41a4815226a05737)
+- Style: code format [`06e385f`](https://github.com/zumerlab/zumerbox/commit/06e385f9febaa555b57a02a6e8c5acb3cd50eb60)
+- Update LICENSE [`097d4d5`](https://github.com/zumerlab/zumerbox/commit/097d4d535c3d27ea560397f103b4a06ad4ec4fbd)
 
 #### [v1.9.0](https://github.com/zumerlab/zumerbox/compare/v1.8.3...v1.9.0)
 
