@@ -36,7 +36,8 @@ This will install all tools included in ZumerBox.
 
 Alternatively, you can install each tool independently. Here are the available tools:
 
-- @zumerbox/changelog: [npm 📦](https://www.npmjs.com/package/@zumerbox/changelog) | [GitHub :octocat:](https://github.com/zumerlab/zumerbox-changelog)
+- @zumerbox/doc-extractor: [npm 📦](https://www.npmjs.com/package/@zumerbox/doc-extractor) | [GitHub :octocat:](https://github.com/zumerlab/zumerbox-doc-extractor)
+- @zumerbox/doc-extractor: [npm 📦](https://www.npmjs.com/package/@zumerbox/doc-extractor) | [GitHub :octocat:](https://github.com/zumerlab/zumerbox-doc-extractor)
 - @zumerbox/bump: [npm 📦](https://www.npmjs.com/package/@zumerbox/bump) | [GitHub :octocat:](https://github.com/zumerlab/zumerbox-bump)
 - @zumerbox/build: [npm 📦](https://www.npmjs.com/package/@zumerbox/build) | [GitHub :octocat:](https://github.com/zumerlab/zumerbox-build)
 - @zumerbox/code-format: [npm 📦](https://www.npmjs.com/package/@zumerbox/code-format) | [GitHub :octocat:](https://github.com/zumerlab/zumerbox-code-format)
